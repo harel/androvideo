@@ -10,16 +10,22 @@ to do the leg work and get all the pre-equisites sorted out yourself.
 The conversion is pretty straight forward but requires the h263 decode/encode libs
 and ffmpeg to be compiled against them. When you perform the setup portion the script
 will *attempt* to do all for you, but this is only an attempt. 
+
 What is supposed to happen is:
-	* Get all build dependencies for ffmpeg via apt.
- 	* Gets a few libs ffmpeg will need, subversion, checkinstall and build-essentials
-	* Downloads the amr shared libs from http://www.penguin.cz/~utx/amr and attempts to compile/install
-	* Gets latest ffmpeg from svn and attempts to compile/install with the amr libs included
-	* Get rid of all downloaded files and compiled pre-install crap
+
+  * Get all build dependencies for ffmpeg via apt.
+  * Gets a few libs ffmpeg will need, subversion, checkinstall and build-essentials
+  * Downloads the amr shared libs from http://www.penguin.cz/~utx/amr and attempts to compile/install
+  * Gets latest ffmpeg from svn and attempts to compile/install with the amr libs included
+  * Get rid of all downloaded files and compiled pre-install crap
 
 I could not have done this without the very good help from these resources:
+
 http://www.linuxquestions.org/questions/linux-mobile-81/androidg1-and-video-converted-via-ffmpeg-h263-687163/
+
 http://po-ru.com/diary/up-to-date-ffmpeg-on-ubuntu-hardy/
+
 http://tldp.org/LDP/abs/html/ 
+
 http://www.penguin.cz/~utx/amr
 
